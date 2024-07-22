@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 150px;  /* Largeur maximale */
+    height: 150px; /* Hauteur maximale */
+}
+
+.ingredient {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ingredient label {
+    margin-right: 10px;
+    flex: 1; /* Permet à l'étiquette de prendre plus de place */
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox-container label {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+}
